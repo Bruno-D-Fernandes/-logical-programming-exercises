@@ -1,0 +1,30 @@
+# Arquivos de log e temporários
+*.log
+*.tmp
+
+# Arquivos compilados (MUITO IMPORTANTE)
+/out/
+build/
+target/
+
+# Arquivos do IntelliJ IDEA (a forma correta de ignorar)
+/.idea/
+*.iml
+*.ipr
+*.iws
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração de execução do IntelliJ
+shelf/
+
+# Arquivos gerados pelo Maven ou Gradle, se usar
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/
